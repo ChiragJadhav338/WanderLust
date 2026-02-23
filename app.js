@@ -68,6 +68,10 @@ const sessionOptions = {
 }
 
 
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
+
 //home route
 // app.get("/", (req,res)=>{
 //     res.send("page is working");
